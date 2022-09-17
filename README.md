@@ -1,3 +1,8 @@
+# Learning React JS through Coding Platform
+This is my another repo for learning react. Material included: 
+1. PropTypes: this can be used to handle properties type to a component to reduce bug in the code
+2. React Router: this is used to route/switch render components based on the URL path
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
