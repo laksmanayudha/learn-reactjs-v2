@@ -14,6 +14,10 @@ import { createRoot } from "react-dom/client"
 // import Counter from "./11-useEffect/Counter";
 // import GitHubProfile from "./11-useEffect/GitHubProfile";
 // import LearnUseEffect from "./11-useEffect/App";
+// import LatihanSideEffect from "./12-latihan-side-effect/App";
+// import LatihanUseContext from "./13-latihan-useContext/App";
+// import RegisterForm from "./14-custom-hooks/RegisterForm";
+import LatihanCustomHooks from "./15-latihan-custom-hooks/App";
 
 const root = createRoot(document.getElementById('root'));
 root.render(
@@ -48,5 +52,24 @@ root.render(
   {/* <GitHubProfile username={'dicodingacademy'} /> */}
   {/* <LearnUseEffect /> */}
 
+  {/* latihan 12 side effect, useEffect */}
+  {/* <LatihanSideEffect /> */}
+
+  {/* latihan 13 latihan useContext */}
+  {/* <LatihanUseContext /> */}
+
+  {/* latihan 14 custom hooks */}
+  {/* <RegisterForm /> */}
+
+  {/* latihan 15 latihan custom hooks */}
+  <LatihanCustomHooks />
+
 </React.StrictMode>
-)
+);
+
+/*
+NOTE: 
+
+Anda tidak dapat memanggil fungsi hooks selain di level atas sebuah fungsi. 
+Itu artinya, fungsi hooks tidak bisa dipanggil di dalam sebuah kondisional, perulangan, atau nested function.
+*/ 

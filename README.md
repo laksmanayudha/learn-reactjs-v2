@@ -2,6 +2,9 @@
 This is my another repo for learning react. Material included: 
 1. PropTypes: this can be used to handle properties type to a component to reduce bug in the code
 2. React Router: this is used to route/switch render components based on the URL path
+3. React Context: a method to share data/state to many components globaly
+4. React Hooks: useState, useEffect, useContext, useMemo
+5. Custom Hooks: When you have non-visual logic in a component that you want to apply across multiple components, extract that logic into a function hook, this is called custom hooks.
 
 # Getting Started with Create React App
 
